@@ -149,6 +149,13 @@
  > 
 </div>
 <br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ludufre/ludufre/main/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/ludufre/ludufre/main/github-contribution-grid-snake.svg" />
+</picture>
+
 <div> 
  <img src="https://komarev.com/ghpvc/?username=ludufre&color=green" alt="visitas" /> 
 </div>

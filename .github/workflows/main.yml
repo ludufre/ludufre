@@ -14,12 +14,7 @@ jobs:
       matrix:
         Nodes: [15.x, 16.x, 17.x, 18.x, 19.x]
         PnpmVersion: [6, 7]
-        Pakages: [
-          'capacitor-screenshot',
-          'xmworkers',
-          'capacitor-app-attest',
-          'capacitor-lottie-screen-shot'
-        ]
+        Pakages: []
   
     steps:
       - name: Use Node.js ${{ matrix.Nodes }}
