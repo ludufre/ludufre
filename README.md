@@ -156,6 +156,8 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake.svg" />
 </picture>
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ludufre)
+
 <div> 
  <img src="https://komarev.com/ghpvc/?username=ludufre&color=green" alt="visitas" /> 
 </div>
