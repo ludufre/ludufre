@@ -58,16 +58,19 @@ Transform your app's first impression with stunning Lottie animations as splash 
 
 ---
 
-### **📊 Capacitor Live Activities** *(In Development)*
+### **📊 Capacitor Live Activities**
 *iOS Live Activities & Dynamic Island integration*
 
-Bringing iOS 16.2+ Live Activities and Dynamic Island functionality to Ionic Capacitor. Perfect for apps needing real-time updates and enhanced user engagement.
+A comprehensive Ionic Capacitor plugin that brings iOS 16.2+ Live Activities and Dynamic Island functionality to your apps. Features a powerful JSON-based layout system for creating rich, interactive live activities with real-time data updates.
 
 **Key Features:**
-- 📱 Native iOS Live Activities support
+- 📱 Native iOS Live Activities support (iOS 16.2+)
 - 🏝️ Dynamic Island integration
-- 🎛️ Flexible layout configurations
+- 🎛️ JSON-based flexible layout system
 - 🔔 Real-time activity updates
+- 🎨 Rich media support (SF Symbols, images)
+- ⏱️ Timer and progress tracking capabilities
+- 📦 Easy installation and setup
 
 [**🔗 View Repository**](https://github.com/ludufre/capacitor-live-activities)
 

@@ -58,16 +58,19 @@ Transforme a primeira impressão do seu app com impressionantes animações Lott
 
 ---
 
-### **📊 Capacitor Live Activities** *(Em Desenvolvimento)*
+### **📊 Capacitor Live Activities**
 *Integração iOS Live Activities e Dynamic Island*
 
-Trazendo funcionalidades do iOS 16.2+ Live Activities e Dynamic Island para o Ionic Capacitor. Perfeito para apps que precisam de atualizações em tempo real e maior engajamento do usuário.
+Um plugin abrangente para Ionic Capacitor que traz funcionalidades do iOS 16.2+ Live Activities e Dynamic Island para seus apps. Conta com um poderoso sistema de layout baseado em JSON para criar live activities ricas e interativas com atualizações de dados em tempo real.
 
 **Principais Recursos:**
-- 📱 Suporte nativo para iOS Live Activities
+- 📱 Suporte nativo para iOS Live Activities (iOS 16.2+)
 - 🏝️ Integração com Dynamic Island
-- 🎛️ Configurações flexíveis de layout
+- 🎛️ Sistema de layout flexível baseado em JSON
 - 🔔 Atualizações de atividade em tempo real
+- 🎨 Suporte a mídia rica (SF Symbols, imagens)
+- ⏱️ Capacidades de timer e rastreamento de progresso
+- 📦 Instalação e configuração fáceis
 
 [**🔗 Ver Repositório**](https://github.com/ludufre/capacitor-live-activities)
 
