@@ -76,6 +76,23 @@ A comprehensive Ionic Capacitor plugin that brings iOS 16.2+ Live Activities and
 
 ---
 
+### **🤖 Capacitor Foundation Models**
+*On-device AI with Apple's Foundation Models*
+
+A cutting-edge Capacitor plugin that brings Apple's on-device AI capabilities to your Ionic apps. Enables privacy-first AI interactions with structured output support and complete device-level processing.
+
+**Key Features:**
+- 🤖 Direct integration with Apple's on-device AI models
+- 🔒 Privacy-first approach (all processing happens on-device)
+- 📱 iOS 26+ support with Apple Intelligence
+- 🎯 Schema validation for structured AI responses
+- ⚡ Session management and temperature control
+- 📊 Device compatibility checking
+
+[**🔗 View Repository**](https://github.com/ludufre/capacitor-foundation-models)
+
+---
+
 ## 💻 Tech Stack
 
 **Mobile Development:**
