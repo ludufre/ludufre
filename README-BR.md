@@ -31,6 +31,25 @@ Uma biblioteca TypeScript e CLI para interagir com a API do Microsoft Family Saf
 
 ---
 
+### **👨‍👩‍👧‍👦 Google Family Link API**
+*Cliente TypeScript não-oficial para a API do Google Family Link — focado em controle de tempo*
+
+Uma biblioteca TypeScript e CLI para interagir com a API do Google Family Link. Permite gerenciar programaticamente tempo de tela, bloqueio de dispositivos, bônus de tempo, agendas de hora de dormir e horário escolar — útil para automação residencial e fluxos de controle parental customizados.
+
+**Funcionalidades:**
+- 🕐 Monitoramento de tempo de tela diário com detalhamento por app
+- 🔒 Bloqueio/desbloqueio de dispositivos
+- ➕ Gerenciamento de bônus de tempo (adicionar/cancelar)
+- 🌙 Controle de hora de dormir (ativar, desativar, definir por dia)
+- 🏫 Restrições de horário escolar (ativar/desativar)
+- 📅 Gerenciamento de limite diário (ativar, desativar, definir minutos)
+- 👥 Suporte a múltiplas contas (parâmetro `authUser`)
+- ⌨️ CLI completa com alias curto `gfl`
+
+[**🔗 Ver Repositório**](https://github.com/ludufre/g-family-link) · [**📦 npm**](https://www.npmjs.com/package/g-family-link)
+
+---
+
 ### **📱 Capacitor Screenshot**
 *Capture screenshots do seu app com facilidade*
 
