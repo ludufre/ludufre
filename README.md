@@ -41,7 +41,7 @@ A simple yet powerful plugin that enables developers to capture screenshots prog
 - 🎯 Simple API with TypeScript support
 - 💾 Flexible output options (memory or file system)
 
-[**🔗 View Repository**](https://github.com/ludufre/capacitor-screenshot)
+[**🔗 View Repository**](https://github.com/ludufre/capacitor-screenshot) · [**📦 npm**](https://www.npmjs.com/package/capacitor-screenshot)
 
 ---
 
@@ -56,7 +56,7 @@ Brings Apple's App Attest framework to Ionic Capacitor, providing app integrity 
 - 🎯 Backend validation support with examples
 - 📱 iOS-focused security enhancement
 
-[**🔗 View Repository**](https://github.com/ludufre/capacitor-app-attest)
+[**🔗 View Repository**](https://github.com/ludufre/capacitor-app-attest) · [**📦 npm**](https://www.npmjs.com/package/capacitor-app-attest)
 
 ---
 
@@ -71,7 +71,7 @@ Transform your app's first impression with stunning Lottie animations as splash 
 - ⚙️ Flexible configuration options
 - 🔄 Loop control and auto-hide functionality
 
-[**🔗 View Repository**](https://github.com/ludufre/capacitor-lottie-splash-screen)
+[**🔗 View Repository**](https://github.com/ludufre/capacitor-lottie-splash-screen) · [**📦 npm**](https://www.npmjs.com/package/capacitor-lottie-splash-screen)
 
 ---
 
@@ -89,7 +89,7 @@ A comprehensive Ionic Capacitor plugin that brings iOS 16.2+ Live Activities and
 - ⏱️ Timer and progress tracking capabilities
 - 📦 Easy installation and setup
 
-[**🔗 View Repository**](https://github.com/ludufre/capacitor-live-activities)
+[**🔗 View Repository**](https://github.com/ludufre/capacitor-live-activities) · [**📦 npm**](https://www.npmjs.com/package/capacitor-live-activities)
 
 ---
 
@@ -106,7 +106,7 @@ A cutting-edge Capacitor plugin that brings Apple's on-device AI capabilities to
 - ⚡ Session management and temperature control
 - 📊 Device compatibility checking
 
-[**🔗 View Repository**](https://github.com/ludufre/capacitor-foundation-models)
+[**🔗 View Repository**](https://github.com/ludufre/capacitor-foundation-models) · [**📦 npm**](https://www.npmjs.com/package/capacitor-foundation-models)
 
 ---
 
