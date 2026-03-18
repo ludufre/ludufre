@@ -93,6 +93,23 @@ A cutting-edge Capacitor plugin that brings Apple's on-device AI capabilities to
 
 ---
 
+### **🛡️ MS Family Safety API**
+*Unofficial TypeScript client for the Microsoft Family Safety API*
+
+A TypeScript library and CLI for interacting with the Microsoft Family Safety API. Enables developers to programmatically manage screen time, app policies, device restrictions, and respond to extension requests — useful for home automation and custom parental control workflows.
+
+**Key Features:**
+- 🕐 Screen time schedule management (per platform, per day)
+- 📱 App block/unblock control
+- 🖥️ Device platform lock/unlock
+- 🔔 Pending screen-time request approval/denial
+- 🤖 Polling mode for Home Assistant integrations
+- ⌨️ Full CLI with short alias `mfs`
+
+[**🔗 View Repository**](https://github.com/ludufre/ms-family-safety) · [**📦 npm**](https://www.npmjs.com/package/ms-family-safety)
+
+---
+
 ## 💻 Tech Stack
 
 **Mobile Development:**
