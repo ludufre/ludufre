@@ -14,6 +14,23 @@ Sou apaixonado por criar ferramentas poderosas e amigáveis para desenvolvedores
 
 ## 🚀 Projetos Open Source em Destaque
 
+### **🛡️ MS Family Safety API**
+*Cliente TypeScript não-oficial para a API do Microsoft Family Safety*
+
+Uma biblioteca TypeScript e CLI para interagir com a API do Microsoft Family Safety. Permite gerenciar programaticamente tempo de tela, políticas de apps, restrições de dispositivos e responder a solicitações de extensão — útil para automação residencial e fluxos de controle parental customizados.
+
+**Funcionalidades:**
+- 🕐 Gerenciamento de agenda de tempo de tela (por plataforma, por dia)
+- 📱 Bloqueio/desbloqueio de apps
+- 🖥️ Bloqueio/desbloqueio de plataformas de dispositivo
+- 🔔 Aprovação/negação de solicitações de tempo de tela
+- 🤖 Modo polling para integrações com Home Assistant
+- ⌨️ CLI completa com alias curto `mfs`
+
+[**🔗 Ver Repositório**](https://github.com/ludufre/ms-family-safety) · [**📦 npm**](https://www.npmjs.com/package/ms-family-safety)
+
+---
+
 ### **📱 Capacitor Screenshot**
 *Capture screenshots do seu app com facilidade*
 
@@ -90,23 +107,6 @@ Um plugin Capacitor de ponta que traz as capacidades de IA on-device da Apple pa
 - 📊 Verificação de compatibilidade do dispositivo
 
 [**🔗 Ver Repositório**](https://github.com/ludufre/capacitor-foundation-models)
-
----
-
-### **🛡️ MS Family Safety API**
-*Cliente TypeScript não-oficial para a API do Microsoft Family Safety*
-
-Uma biblioteca TypeScript e CLI para interagir com a API do Microsoft Family Safety. Permite gerenciar programaticamente tempo de tela, políticas de apps, restrições de dispositivos e responder a solicitações de extensão — útil para automação residencial e fluxos de controle parental customizados.
-
-**Funcionalidades:**
-- 🕐 Gerenciamento de agenda de tempo de tela (por plataforma, por dia)
-- 📱 Bloqueio/desbloqueio de apps
-- 🖥️ Bloqueio/desbloqueio de plataformas de dispositivo
-- 🔔 Aprovação/negação de solicitações de tempo de tela
-- 🤖 Modo polling para integrações com Home Assistant
-- ⌨️ CLI completa com alias curto `mfs`
-
-[**🔗 Ver Repositório**](https://github.com/ludufre/ms-family-safety) · [**📦 npm**](https://www.npmjs.com/package/ms-family-safety)
 
 ---
 
