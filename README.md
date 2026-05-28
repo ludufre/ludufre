@@ -14,6 +14,44 @@ I'm passionate about creating powerful, developer-friendly tools for the mobile 
 
 ## 🚀 Featured Open Source Projects
 
+### **🎮 sd2snes — Brazilian Portuguese Translation**
+*Brazilian Portuguese (pt-BR) localization of the sd2snes / FXPAK firmware*
+
+A community translation fork of the sd2snes firmware — the popular SD-card cartridge for the Super Nintendo (SNES / Super Famicom). It brings the entire on-cartridge menu to Brazilian Portuguese, shipped as a drop-in release that overlays the official firmware without removing any features.
+
+**Key Features:**
+- 🌎 Full pt-BR localization of the sd2snes / FXPAK menu
+- 📦 Drop-in release that overlays the official firmware
+- 🔁 Version-matched releases (each maps to an official firmware version)
+- 💾 Includes FURiOUS Save States support
+- 🔗 Based on the upstream project by [@mrehkopf](https://github.com/mrehkopf)
+
+[**🔗 View Repository**](https://github.com/ludufre/sd2snes) · [**⬆️ Upstream Project**](https://github.com/mrehkopf/sd2snes)
+
+---
+
+### **📺 GBS-Control — Thales Câmara Edition**
+*Custom firmware for the GBS Control (Blue) & GBSC Pro video upscalers*
+
+<p>
+  <img src="https://raw.githubusercontent.com/ludufre/gbs-thaleco/main/blue.png" alt="GBS Control (Blue)" height="150">
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/ludufre/gbs-thaleco/main/pro.png" alt="GBSC Pro" height="150">
+</p>
+
+Custom firmware for the **GBS Control (Blue)** and **GBSC Pro** open-source video upscalers, built for the [Thales Câmara YouTube channel](https://www.youtube.com/@thalescamara). It adds a full Brazilian Portuguese localization, curated console presets, a channel-themed UI and quality-of-life fixes — all flashable straight from the browser.
+
+**Key Features:**
+- 🌎 Full pt-BR translation across Web UI, OLED menu and on-screen display (OSD)
+- 🎨 Custom Web UI theme matching the channel's identity
+- 🕹️ Curated presets for popular retro consoles (NES, SNES, Mega Drive, PlayStation, Saturn, N64 and more)
+- 🌐 Browser-based web installer (WebSerial) plus Wi-Fi OTA updates
+- 🧩 Two editions: **Edição Azul** (Blue) and **Edição Pro**
+
+[**🔗 View Repository**](https://github.com/ludufre/gbs-thaleco) · [**🌐 Web Installer**](http://thaleco.ludufre.com) · [**▶️ Thales Câmara — YouTube**](https://www.youtube.com/@thalescamara)
+
+---
+
 ### **🛡️ MS Family Safety API**
 *Unofficial TypeScript client for the Microsoft Family Safety API*
 

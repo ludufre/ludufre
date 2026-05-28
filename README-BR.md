@@ -14,6 +14,44 @@ Sou apaixonado por criar ferramentas poderosas e amigáveis para desenvolvedores
 
 ## 🚀 Projetos Open Source em Destaque
 
+### **🎮 sd2snes — Tradução em Português do Brasil**
+*Tradução em Português do Brasil (pt-BR) da firmware do sd2snes / FXPAK*
+
+Um fork de tradução da firmware do sd2snes — o popular cartucho com leitor de SD para o Super Nintendo (SNES / Super Famicom). Leva todo o menu do cartucho para o Português do Brasil, distribuído como um pacote que sobrepõe a firmware oficial sem remover nenhuma funcionalidade.
+
+**Funcionalidades:**
+- 🌎 Tradução completa em pt-BR do menu do sd2snes / FXPAK
+- 📦 Pacote que sobrepõe a firmware oficial
+- 🔁 Releases pareadas por versão (cada uma corresponde a uma versão oficial da firmware)
+- 💾 Inclui suporte aos Save States FURiOUS
+- 🔗 Baseado no projeto original de [@mrehkopf](https://github.com/mrehkopf)
+
+[**🔗 Ver Repositório**](https://github.com/ludufre/sd2snes) · [**⬆️ Projeto Original**](https://github.com/mrehkopf/sd2snes)
+
+---
+
+### **📺 GBS-Control — Edição Thales Câmara**
+*Firmware customizada para os upscalers de vídeo GBS Control (Blue) e GBSC Pro*
+
+<p>
+  <img src="https://raw.githubusercontent.com/ludufre/gbs-thaleco/main/blue.png" alt="GBS Control (Blue)" height="150">
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/ludufre/gbs-thaleco/main/pro.png" alt="GBSC Pro" height="150">
+</p>
+
+Firmware customizada para os upscalers de vídeo open-source **GBS Control (Blue)** e **GBSC Pro**, feita para o [canal Thales Câmara no YouTube](https://www.youtube.com/@thalescamara). Adiciona uma localização completa em Português do Brasil, presets prontos para consoles, uma UI com a identidade do canal e melhorias de estabilidade — tudo instalável direto pelo navegador.
+
+**Principais Recursos:**
+- 🌎 Tradução completa em pt-BR na Web UI, menu OLED e exibição na tela (OSD)
+- 🎨 Tema customizado da Web UI com a identidade do canal
+- 🕹️ Presets prontos para consoles retro populares (NES, SNES, Mega Drive, PlayStation, Saturn, N64 e mais)
+- 🌐 Instalador web pelo navegador (WebSerial) e atualizações OTA via Wi-Fi
+- 🧩 Duas edições: **Edição Azul** (Blue) e **Edição Pro**
+
+[**🔗 Ver Repositório**](https://github.com/ludufre/gbs-thaleco) · [**🌐 Instalador Web**](http://thaleco.ludufre.com) · [**▶️ Thales Câmara — YouTube**](https://www.youtube.com/@thalescamara)
+
+---
+
 ### **🛡️ MS Family Safety API**
 *Cliente TypeScript não-oficial para a API do Microsoft Family Safety*
 
