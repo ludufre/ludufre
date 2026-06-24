@@ -14,19 +14,23 @@ Sou apaixonado por criar ferramentas poderosas e amigáveis para desenvolvedores
 
 ## 🚀 Projetos Open Source em Destaque
 
-### **🎮 sd2snes — Tradução em Português do Brasil**
-*Tradução em Português do Brasil (pt-BR) da firmware do sd2snes / FXPAK*
+### **🎮 sd2snes+ — Firmware Turbinada do sd2snes / FXPAK**
+*Um fork repleto de recursos da firmware do sd2snes / FXPAK: capas, traduções, cheats, temas e muito mais*
 
-Um fork de tradução da firmware do sd2snes — o popular cartucho com leitor de SD para o Super Nintendo (SNES / Super Famicom). Leva todo o menu do cartucho para o Português do Brasil, distribuído como um pacote que sobrepõe a firmware oficial sem remover nenhuma funcionalidade.
+Um fork da comunidade (**sd2snes+**) da firmware do sd2snes — o popular cartucho com leitor de SD para o Super Nintendo (SNES / Super Famicom). Instala como um pacote que sobrepõe a firmware oficial (pareado por versão, com Save States FURiOUS inclusos) e adiciona toda uma camada de recursos por cima da original, sem remover nenhuma funcionalidade.
 
 **Funcionalidades:**
-- 🌎 Tradução completa em pt-BR do menu do sd2snes / FXPAK
-- 📦 Pacote que sobrepõe a firmware oficial
-- 🔁 Releases pareadas por versão (cada uma corresponde a uma versão oficial da firmware)
-- 💾 Inclui suporte aos Save States FURiOUS
+- 🌎 Menu em 4 idiomas — Português do Brasil, Inglês, Espanhol e Alemão
+- 🖼️ Capa (box-art) dos jogos no navegador de arquivos + tela de informações pré-jogo (capa, screenshot, metadados)
+- 🎵 Música de fundo no menu (`.spc`) e efeitos sonoros de navegação
+- 🩹 Patches IPS/BPS aplicados na inicialização (traduções, hacks, correções) — ROM original intacta
+- 🎯 Gerenciador de cheats no console + sobreposição de cheats durante o jogo
+- 🎨 Temas do menu trocados no próprio console (logo, cores, fundo) com editor web e galeria pronta
+- 🕹️ Extras de conveniência: Memory Pack 8M do BS-X, aviso de BIOS de chip faltando, deletar arquivo/save, reset que volta pra onde você estava
+- 🌐 Ferramentas no navegador — Web Manager (baixa capas, informações e cheats por CRC32) + GamesDB da comunidade
 - 🔗 Baseado no projeto original de [@mrehkopf](https://github.com/mrehkopf)
 
-[**🔗 Ver Repositório**](https://github.com/ludufre/sd2snes) · [**⬆️ Projeto Original**](https://github.com/mrehkopf/sd2snes)
+[**🔗 Ver Repositório**](https://github.com/ludufre/sd2snes) · [**🌐 Site**](https://sd2snes.ludufre.com) · [**🗂️ Web Manager**](https://sd2snes.ludufre.com/manager) · [**⬆️ Projeto Original**](https://github.com/mrehkopf/sd2snes)
 
 ---
 

@@ -14,19 +14,23 @@ I'm passionate about creating powerful, developer-friendly tools for the mobile 
 
 ## 🚀 Featured Open Source Projects
 
-### **🎮 sd2snes — Brazilian Portuguese Translation**
-*Brazilian Portuguese (pt-BR) localization of the sd2snes / FXPAK firmware*
+### **🎮 sd2snes+ — Enhanced sd2snes / FXPAK Firmware**
+*A feature-rich fork of the sd2snes / FXPAK firmware: covers, translations, cheats, themes & more*
 
-A community translation fork of the sd2snes firmware — the popular SD-card cartridge for the Super Nintendo (SNES / Super Famicom). It brings the entire on-cartridge menu to Brazilian Portuguese, shipped as a drop-in release that overlays the official firmware without removing any features.
+A community fork (**sd2snes+**) of the sd2snes firmware — the popular SD-card cartridge for the Super Nintendo (SNES / Super Famicom). It installs as a drop-in release over the official firmware (version-matched, FURiOUS Save States included) and adds a whole layer of user-facing features on top of the original, without removing anything.
 
 **Key Features:**
-- 🌎 Full pt-BR localization of the sd2snes / FXPAK menu
-- 📦 Drop-in release that overlays the official firmware
-- 🔁 Version-matched releases (each maps to an official firmware version)
-- 💾 Includes FURiOUS Save States support
+- 🌎 Menu in 4 languages — Brazilian Portuguese, English, Spanish & German
+- 🖼️ Game box-art in the file browser + a pre-launch game-info screen (cover, screenshot, metadata)
+- 🎵 Menu background music (`.spc`) and navigation sound effects
+- 🩹 IPS/BPS patches applied at boot (translations, hacks, fixes) — original ROM left untouched
+- 🎯 On-console cheat manager plus an in-game cheat overlay
+- 🎨 Console-side menu themes (logo, colors, background) with a web editor & ready-made gallery
+- 🕹️ Quality-of-life extras: BS-X 8M Memory Pack, missing chip-BIOS warnings, delete file/save, smart reset-to-menu
+- 🌐 Companion browser tools — Web Manager (auto-fetches covers, game info & cheats by CRC32) + community GamesDB
 - 🔗 Based on the upstream project by [@mrehkopf](https://github.com/mrehkopf)
 
-[**🔗 View Repository**](https://github.com/ludufre/sd2snes) · [**⬆️ Upstream Project**](https://github.com/mrehkopf/sd2snes)
+[**🔗 View Repository**](https://github.com/ludufre/sd2snes) · [**🌐 Website**](https://sd2snes.ludufre.com) · [**🗂️ Web Manager**](https://sd2snes.ludufre.com/manager) · [**⬆️ Upstream Project**](https://github.com/mrehkopf/sd2snes)
 
 ---
 
