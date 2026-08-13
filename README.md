@@ -2,9 +2,9 @@
 
 **Mobile Developer & Open Source Enthusiast**
 
-[🇧🇷 Versão em Português](./README-BR.md)
-
 I'm passionate about creating powerful, developer-friendly tools for the mobile ecosystem. My focus is on building Ionic Capacitor plugins that solve real-world problems and enhance the mobile development experience.
+
+[🇧🇷 Versão em Português](./README-BR.md)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake-dark.svg" />
@@ -15,19 +15,25 @@ I'm passionate about creating powerful, developer-friendly tools for the mobile 
 ## 🚀 Featured Open Source Projects
 
 ### **🎮 sd2snes+ — Enhanced sd2snes / FXPAK Firmware**
-*A feature-rich fork of the sd2snes / FXPAK firmware: covers, translations, cheats, themes & more*
+
+<p align="center"><a href="https://sd2snes.ludufre.com"><img src="https://raw.githubusercontent.com/ludufre/sd2snes/master/gfx/logo.png" alt="sd2snes+" width="299"></a></p>
+
+*A feature-rich fork of the sd2snes / FXPAK firmware: covers, translations, savestates, cheats, themes & more*
 
 A community fork (**sd2snes+**) of the sd2snes firmware — the popular SD-card cartridge for the Super Nintendo (SNES / Super Famicom). It installs as a drop-in release over the official firmware (version-matched, FURiOUS Save States included) and adds a whole layer of user-facing features on top of the original, without removing anything.
 
 **Key Features:**
-- 🌎 Menu in 4 languages — Brazilian Portuguese, English, Spanish & German
-- 🖼️ Game box-art in the file browser + a pre-launch game-info screen (cover, screenshot, metadata)
-- 🎵 Menu background music (`.spc`) and navigation sound effects
-- 🩹 IPS/BPS patches applied at boot (translations, hacks, fixes) — original ROM left untouched
-- 🎯 On-console cheat manager plus an in-game cheat overlay
-- 🎨 Console-side menu themes (logo, colors, background) with a web editor & ready-made gallery
-- 🕹️ Quality-of-life extras: BS-X 8M Memory Pack, missing chip-BIOS warnings, delete file/save, smart reset-to-menu
-- 🌐 Companion browser tools — Web Manager (auto-fetches covers, game info & cheats by CRC32) + community GamesDB
+- 🌎 Menu in 6 languages — Brazilian Portuguese, English, Spanish, German, French & Italian, down to a one-line description for every setting
+- 🖼️ Game box-art in the file browser + a pre-launch info card (cover, animated clip with sound or a static shot, and the game's metadata)
+- 💾 Savestates on special-chip games that never had them — DSP1/1b/2/3/4, Super FX, OBC1, S-DD1 and CX4, plus SA-1 on the FXPak Pro (Mk.III)
+- 🎮 In-game menu with tabs (L+R+Y+←) — cheats toggled live, savestate slots, battery-save status and the game's manuals, with the game frozen where it was
+- 📖 Read the game's manual, map or walkthrough on the TV (`.man`, up to 8 per game) — it remembers the page you stopped at
+- 🩹 IPS/BPS patches applied at boot (translations, hacks, fixes) — original ROM untouched, or write a ready-patched copy next to it
+- 🎵 Menu background music (`.spc`) and 4 navigation sound effects, built in the browser with the Sound Creator
+- 🎨 Console-side menu themes (logo, colors, background) with a web editor & ready-made gallery — the sd2snes+ theme ships as the factory default since 2.15
+- 🕹️ Master System & NES cores (experimental, Mk.III only) — drop a `.sms`/`.nes` on the card and it shows up in the list
+- ⚙️ Quality-of-life extras: BS-X 8M Memory Pack, missing chip-BIOS warnings, delete file/save, smart reset-to-menu
+- 🌐 Companion browser tools — Web Manager (auto-fetches covers, game info, manuals & cheats by CRC32) + community GamesDB
 - 🔗 Based on the upstream project by [@mrehkopf](https://github.com/mrehkopf)
 
 [**🔗 View Repository**](https://github.com/ludufre/sd2snes) · [**🌐 Website**](https://sd2snes.ludufre.com) · [**🗂️ Web Manager**](https://sd2snes.ludufre.com/manager) · [**⬆️ Upstream Project**](https://github.com/mrehkopf/sd2snes)

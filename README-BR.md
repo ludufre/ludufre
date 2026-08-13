@@ -2,9 +2,9 @@
 
 **Desenvolvedor Mobile & Entusiasta Open Source**
 
-[🇺🇸 English Version](./README.md)
-
 Sou apaixonado por criar ferramentas poderosas e amigáveis para desenvolvedores no ecossistema mobile. Meu foco é construir plugins para Ionic Capacitor que resolvem problemas reais e melhoram a experiência de desenvolvimento mobile.
+
+[🇺🇸 English Version](./README.md)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake-dark.svg" />
@@ -15,19 +15,25 @@ Sou apaixonado por criar ferramentas poderosas e amigáveis para desenvolvedores
 ## 🚀 Projetos Open Source em Destaque
 
 ### **🎮 sd2snes+ — Firmware Turbinada do sd2snes / FXPAK**
-*Um fork repleto de recursos da firmware do sd2snes / FXPAK: capas, traduções, cheats, temas e muito mais*
+
+<p align="center"><a href="https://sd2snes.ludufre.com"><img src="https://raw.githubusercontent.com/ludufre/sd2snes/master/gfx/logo.png" alt="sd2snes+" width="299"></a></p>
+
+*Um fork repleto de recursos da firmware do sd2snes / FXPAK: capas, traduções, savestates, cheats, temas e muito mais*
 
 Um fork da comunidade (**sd2snes+**) da firmware do sd2snes — o popular cartucho com leitor de SD para o Super Nintendo (SNES / Super Famicom). Instala como um pacote que sobrepõe a firmware oficial (pareado por versão, com Save States FURiOUS inclusos) e adiciona toda uma camada de recursos por cima da original, sem remover nenhuma funcionalidade.
 
 **Funcionalidades:**
-- 🌎 Menu em 4 idiomas — Português do Brasil, Inglês, Espanhol e Alemão
-- 🖼️ Capa (box-art) dos jogos no navegador de arquivos + tela de informações pré-jogo (capa, screenshot, metadados)
-- 🎵 Música de fundo no menu (`.spc`) e efeitos sonoros de navegação
-- 🩹 Patches IPS/BPS aplicados na inicialização (traduções, hacks, correções) — ROM original intacta
-- 🎯 Gerenciador de cheats no console + sobreposição de cheats durante o jogo
-- 🎨 Temas do menu trocados no próprio console (logo, cores, fundo) com editor web e galeria pronta
-- 🕹️ Extras de conveniência: Memory Pack 8M do BS-X, aviso de BIOS de chip faltando, deletar arquivo/save, reset que volta pra onde você estava
-- 🌐 Ferramentas no navegador — Web Manager (baixa capas, informações e cheats por CRC32) + GamesDB da comunidade
+- 🌎 Menu em 6 idiomas — Português do Brasil, Inglês, Espanhol, Alemão, Francês e Italiano, até a descrição de cada opção de configuração
+- 🖼️ Capa (box-art) dos jogos no navegador de arquivos + tela de informações antes de jogar (capa, clipe animado com som ou imagem estática, e os metadados do jogo)
+- 💾 Savestates em jogos com chip especial, que nunca tiveram — DSP1/1b/2/3/4, Super FX, OBC1, S-DD1 e CX4, mais SA-1 no FXPak Pro (Mk.III)
+- 🎮 Menu in-game com abas (L+R+Y+←) — cheats ligados na hora, slots de savestate, situação do save de bateria e os manuais do jogo, com o jogo congelado onde estava
+- 📖 Ler manual, mapa ou detonado do jogo na TV (`.man`, até 8 por jogo) — ele lembra a página onde você parou
+- 🩹 Patches IPS/BPS aplicados na inicialização (traduções, hacks, correções) — ROM original intacta, ou gerando uma cópia já patcheada ao lado dela
+- 🎵 Música de fundo no menu (`.spc`) e 4 efeitos sonoros de navegação, montados no navegador com o Criador de Sons
+- 🎨 Temas do menu trocados no próprio console (logo, cores, fundo) com editor web e galeria pronta — o tema sd2snes+ vem de fábrica desde a 2.15
+- 🕹️ Cores de Master System e NES (experimental, só Mk.III) — jogue um `.sms`/`.nes` no cartão e ele aparece na lista
+- ⚙️ Extras de conveniência: Memory Pack 8M do BS-X, aviso de BIOS de chip faltando, deletar arquivo/save, reset que volta pra onde você estava
+- 🌐 Ferramentas no navegador — Web Manager (baixa capas, informações, manuais e cheats por CRC32) + GamesDB da comunidade
 - 🔗 Baseado no projeto original de [@mrehkopf](https://github.com/mrehkopf)
 
 [**🔗 Ver Repositório**](https://github.com/ludufre/sd2snes) · [**🌐 Site**](https://sd2snes.ludufre.com) · [**🗂️ Web Manager**](https://sd2snes.ludufre.com/manager) · [**⬆️ Projeto Original**](https://github.com/mrehkopf/sd2snes)
