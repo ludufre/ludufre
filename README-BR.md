@@ -1,8 +1,8 @@
 # 👋 Olá! Eu sou o Luan Freitas
 
-**Desenvolvedor Mobile & Entusiasta Open Source**
+**Consultor Sênior de Sistemas & Desenvolvedor Open Source**
 
-Sou apaixonado por criar ferramentas poderosas e amigáveis para desenvolvedores no ecossistema mobile. Meu foco é construir plugins para Ionic Capacitor que resolvem problemas reais e melhoram a experiência de desenvolvimento mobile.
+Dezesseis anos construindo e automatizando sistemas — plataformas financeiras e comerciais de dia e, à noite, o tipo de ferramenta que eu gostaria que existisse: firmware para um flashcart de Super Nintendo, plugins de Ionic/Capacitor e bibliotecas Angular que outros desenvolvedores instalam. Portfólio em [ludufre.com](https://ludufre.com).
 
 [🇺🇸 English Version](./README.md)
 
@@ -23,7 +23,7 @@ Sou apaixonado por criar ferramentas poderosas e amigáveis para desenvolvedores
 Um fork da comunidade (**sd2snes+**) da firmware do sd2snes — o popular cartucho com leitor de SD para o Super Nintendo (SNES / Super Famicom). Instala como um pacote que sobrepõe a firmware oficial (pareado por versão, com Save States FURiOUS inclusos) e adiciona toda uma camada de recursos por cima da original, sem remover nenhuma funcionalidade.
 
 **Funcionalidades:**
-- 🌎 Menu em 6 idiomas — Português do Brasil, Inglês, Espanhol, Alemão, Francês e Italiano, até a descrição de cada opção de configuração
+- 🌎 Menu em 7 idiomas — Português do Brasil, Inglês, Espanhol, Alemão, Francês, Italiano e Russo, até a descrição de cada opção de configuração (e o formato de data acompanha o idioma)
 - 🖼️ Capa (box-art) dos jogos no navegador de arquivos + tela de informações antes de jogar (capa, clipe animado com som ou imagem estática, e os metadados do jogo)
 - 💾 Savestates em jogos com chip especial, que nunca tiveram — DSP1/1b/2/3/4, Super FX, OBC1, S-DD1 e CX4, mais SA-1 no FXPak Pro (Mk.III)
 - 🎮 Menu in-game com abas (L+R+Y+←) — cheats ligados na hora, slots de savestate, situação do save de bateria e os manuais do jogo, com o jogo congelado onde estava
@@ -31,12 +31,33 @@ Um fork da comunidade (**sd2snes+**) da firmware do sd2snes — o popular cartuc
 - 🩹 Patches IPS/BPS aplicados na inicialização (traduções, hacks, correções) — ROM original intacta, ou gerando uma cópia já patcheada ao lado dela
 - 🎵 Música de fundo no menu (`.spc`) e 4 efeitos sonoros de navegação, montados no navegador com o Criador de Sons
 - 🎨 Temas do menu trocados no próprio console (logo, cores, fundo) com editor web e galeria pronta — o tema sd2snes+ vem de fábrica desde a 2.15
-- 🕹️ Cores de Master System e NES (experimental, só Mk.III) — jogue um `.sms`/`.nes` no cartão e ele aparece na lista
+- 🕹️ Cores de Master System, NES e Atari 2600 (experimental, só Mk.III) — jogue um `.sms`, `.nes` ou `.a26` no cartão e ele aparece na lista, com som
+- 🔎 Trainer de RAM — descubra seus próprios cheats no console: busque um valor na memória, filtre até sobrar um endereço e congele ou salve como cheat de verdade
+- 🧩 Cores escritos para este fork — SPC7110 (*Far East of Eden Zero*), Super FX 3 (*DOOM* de 2025), minicartuchos Sufami Turbo e os cartuchos de torneio da Nintendo, Campus Challenge '92 e PowerFest '94
+- ⌨️ Cheats digitados no próprio console, com teclado na tela que só oferece os caracteres que um código Game Genie ou Pro Action Replay aceita
+- 🩺 Teste de memória no menu — percorre as linhas da PSRAM e da SRAM e aponta o chip com defeito pela serigrafia
 - ⚙️ Extras de conveniência: Memory Pack 8M do BS-X, aviso de BIOS de chip faltando, deletar arquivo/save, reset que volta pra onde você estava
 - 🌐 Ferramentas no navegador — Web Manager (baixa capas, informações, manuais e cheats por CRC32) + GamesDB da comunidade
 - 🔗 Baseado no projeto original de [@mrehkopf](https://github.com/mrehkopf)
 
 [**🔗 Ver Repositório**](https://github.com/ludufre/sd2snes) · [**🌐 Site**](https://sd2snes.ludufre.com) · [**🗂️ Web Manager**](https://sd2snes.ludufre.com/manager) · [**⬆️ Projeto Original**](https://github.com/mrehkopf/sd2snes)
+
+---
+
+### **🗂️ sd2snes+ Web Manager**
+*Abastece seu cartão de SNES com capas, informações, cheats e manuais — direto do navegador*
+
+A ferramenta companheira do firmware sd2snes+. Aponte para o cartão SD e ele identifica cada ROM por CRC32 na GamesDB, baixando e gravando tudo que o console mostra: capas, telas de info com prévia animada, cheats, manuais e temas. Roda inteiro no navegador, via File System Access API — as ROMs nunca saem da sua máquina, só o checksum sai.
+
+**Funcionalidades:**
+- 🔍 Identifica ROMs de SNES, Satellaview, Game Boy / Color / Super, NES, Master System, Atari 2600 e Sufami Turbo por CRC32
+- 🖼️ Capas codificadas no navegador pelo mesmo encoder em Go da ferramenta nativa, compilado para WebAssembly — bytes idênticos
+- 📖 Editor de manuais que transforma um PDF ou um punhado de imagens em `.man`, separando páginas duplas automaticamente
+- 🎨 Galeria de temas com prévia renderizada, além da instalação do firmware e das BIOS de chip
+- 🗃️ Lê a versão do firmware no cartão e organiza para o layout que *aquele* firmware entende (pastas de duas letras da 2.15, namespaces por console da 2.16)
+- 🔒 Nada é enviado, nunca — Chrome/Edge no desktop e Chrome no Android
+
+[**🔗 Ver Repositório**](https://github.com/ludufre/sd2snes-manager) · [**🌐 Usar agora**](https://sd2snes.ludufre.com/manager/) · [**🗃️ GamesDB**](https://sd2snes.ludufre.com/gamesdb/)
 
 ---
 
@@ -58,7 +79,7 @@ Firmware customizada para os upscalers de vídeo open-source **GBS Control (Blue
 - 🌐 Instalador web pelo navegador (WebSerial) e atualizações OTA via Wi-Fi
 - 🧩 Duas edições: **Edição Azul** (Blue) e **Edição Pro**
 
-[**🔗 Ver Repositório**](https://github.com/ludufre/gbs-thaleco) · [**🌐 Instalador Web**](http://thaleco.ludufre.com) · [**▶️ Thales Câmara — YouTube**](https://www.youtube.com/@thalescamara)
+[**🔗 Ver Repositório**](https://github.com/ludufre/gbs-thaleco) · [**🌐 Instalador Web**](https://thaleco.ludufre.com) · [**▶️ Thales Câmara — YouTube**](https://www.youtube.com/@thalescamara)
 
 ---
 
@@ -179,18 +200,19 @@ Um plugin Capacitor de ponta que traz as capacidades de IA on-device da Apple pa
 
 ## 💻 Stack Tecnológico
 
-**Desenvolvimento Mobile:**
-- Ionic Framework
-- Capacitor
-- TypeScript/JavaScript
-- Swift (iOS)
-- Kotlin (Android)
+**Web e Mobile:**
+- Angular, Ionic Framework, Capacitor
+- TypeScript/JavaScript, HTML e SCSS
+- Node.js, PHP, ASP.NET
 
-**Ferramentas e Plataformas:**
-- Xcode
-- Android Studio
-- npm/pnpm
-- Git
+**Nativo e Sistemas:**
+- Swift (iOS), Kotlin (Android)
+- C e Verilog (firmware, cores de FPGA)
+- Go, Bash, Linux
+
+**Dados e Ferramentas:**
+- MySQL, SQL Server, Oracle, MongoDB, Redis
+- Xcode, Android Studio, npm/pnpm, Git
 
 <div>  
   <img 
@@ -335,6 +357,7 @@ Um plugin Capacitor de ponta que traz as capacidades de IA on-device da Apple pa
 
 - 🐦 Twitter: [@ludufre](https://x.com/ludufre)
 - 💼 LinkedIn: [Luan Freitas](https://www.linkedin.com/in/luan-freitas-14341687/)
+- 🌐 Portfólio: [ludufre.com](https://ludufre.com)
 - 📧 Fique à vontade para entrar em contato para colaborações ou dúvidas sobre qualquer um dos meus projetos!
 
 ---
@@ -347,7 +370,7 @@ Se algum dos meus plugins te ajudou a construir algo incrível, considere:
 - 🤝 Contribuir com os projetos
 - ☕ [Me pague um café](https://www.buymeacoffee.com/ludufre)
 
-*Construindo ferramentas que tornam o desenvolvimento mobile mais prazeroso, um plugin por vez.*
+*Construindo a ferramenta que eu queria que existisse — seja ela um plugin, uma biblioteca ou o firmware de um console.*
 
 <br>
 
