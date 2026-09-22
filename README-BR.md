@@ -370,6 +370,12 @@ Se algum dos meus plugins te ajudou a construir algo incrível, considere:
 - 🤝 Contribuir com os projetos
 - ☕ [Me pague um café](https://www.buymeacoffee.com/ludufre)
 
+Se você curte meus projetos open source e quer apoiar meu trabalho, também pode fazer uma contribuição voluntária:
+
+- 🇧🇷 Pix: `10295497-b500-44e6-9b8c-4e4fae7c30b4`
+
+Obrigado por apoiar o desenvolvimento open source independente!
+
 *Construindo a ferramenta que eu queria que existisse — seja ela um plugin, uma biblioteca ou o firmware de um console.*
 
 <br>
