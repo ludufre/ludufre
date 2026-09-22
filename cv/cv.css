@@ -1,0 +1,221 @@
+/* Folha compartilhada pelas duas versoes do CV (cv-pt.html / cv-en.html).
+   Reproduz o layout do export do LinkedIn que estava em uso: barra lateral
+   escura de 2.75in e coluna principal em branco, em papel Letter. */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700&display=swap');
+
+@page {
+  size: letter;
+  margin: 0;
+}
+
+:root {
+  --sidebar: 2.75in;
+  --band: #293e49;
+  --band-head: #e8eef1;
+  --band-text: #a9bac3;
+  --ink: #2f3a40;
+  --ink-soft: #5d6a72;
+  --ink-faint: #93a1a9;
+  --rule: #c8d2d7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: var(--ink);
+  font-family: 'Source Sans 3', 'Source Sans Pro', -apple-system, 'Segoe UI', Helvetica, sans-serif;
+  font-size: 9.3pt;
+  line-height: 1.34;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* `fixed` repete em toda pagina impressa: e o que estende a barra lateral
+   para a pagina 2, como no PDF original. */
+.band {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--sidebar);
+  background: var(--band);
+}
+
+.aside {
+  position: absolute;
+  top: 0.62in;
+  left: 0;
+  width: var(--sidebar);
+  padding: 0 0.3in 0 0.34in;
+  color: var(--band-text);
+}
+
+.aside h2 {
+  margin: 0 0 0.09in;
+  color: var(--band-head);
+  font-size: 12.5pt;
+  font-weight: 300;
+  letter-spacing: 0.15pt;
+}
+
+.aside section + section {
+  margin-top: 0.3in;
+}
+
+.aside ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.aside li {
+  margin-bottom: 0.055in;
+}
+
+.aside a {
+  color: inherit;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.aside .muted {
+  color: #74858e;
+}
+
+.aside .lang strong {
+  display: block;
+  color: #c3d0d7;
+  font-weight: 400;
+}
+
+.aside .lang span {
+  color: #74858e;
+}
+
+.aside .lang + .lang {
+  margin-top: 0.07in;
+}
+
+main {
+  margin-left: var(--sidebar);
+  padding: 0.55in 0.45in 0.45in 0.4in;
+}
+
+h1 {
+  margin: 0;
+  font-size: 25pt;
+  font-weight: 300;
+  letter-spacing: -0.3pt;
+  color: #3a464c;
+}
+
+.headline {
+  margin: 0.04in 0 0;
+  font-size: 10pt;
+  color: var(--ink-soft);
+}
+
+.where {
+  margin: 0.03in 0 0;
+  font-size: 10pt;
+  color: var(--ink-faint);
+}
+
+main h2 {
+  margin: 0.2in 0 0.07in;
+  font-size: 15pt;
+  font-weight: 300;
+  color: #3a464c;
+}
+
+main h2.ruled::before {
+  content: '';
+  display: block;
+  width: 0.42in;
+  border-top: 1px solid var(--rule);
+  margin-bottom: 0.13in;
+}
+
+main p {
+  margin: 0 0 0.09in;
+  orphans: 2;
+  widows: 2;
+}
+
+/* Uma posicao pode se dividir entre paginas (senao a entrada longa da TIM
+   empurra um terco da pagina 1 para o vazio), mas o cabecalho nunca fica
+   sozinho no pe da pagina e um bullet nao se parte no meio. */
+.role {
+  margin-top: 0.14in;
+}
+
+.role .org,
+.role .title,
+.role .when,
+.role .place {
+  break-after: avoid;
+}
+
+.role li,
+.edu {
+  break-inside: avoid;
+}
+
+.role:first-of-type {
+  margin-top: 0.02in;
+}
+
+.role .org {
+  font-weight: 600;
+}
+
+.role .title {
+  font-weight: 600;
+}
+
+.role .when {
+  color: var(--ink-soft);
+}
+
+.role .place {
+  color: var(--ink-faint);
+}
+
+.role ul {
+  margin: 0.06in 0 0;
+  padding-left: 0.17in;
+}
+
+.role li {
+  margin-bottom: 0.035in;
+}
+
+.role li ul {
+  margin-top: 0.045in;
+}
+
+.edu {
+  display: flex;
+  gap: 0.12in;
+}
+
+.edu .year {
+  color: var(--ink-faint);
+  min-width: 0.42in;
+}
+
+.oss li {
+  margin-bottom: 0.04in;
+}
+
+main ul {
+  margin: 0;
+  padding-left: 0.17in;
+}
