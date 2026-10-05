@@ -22,18 +22,22 @@ Dezesseis anos construindo e automatizando sistemas — plataformas financeiras 
 
 Um fork da comunidade (**sd2snes+**) da firmware do sd2snes — o popular cartucho com leitor de SD para o Super Nintendo (SNES / Super Famicom). Instala como um pacote que sobrepõe a firmware oficial (pareado por versão, com Save States FURiOUS inclusos) e adiciona toda uma camada de recursos por cima da original, sem remover nenhuma funcionalidade.
 
+> 🆕 **[2.17](https://github.com/ludufre/sd2snes/releases/tag/v1.11.2-br-v2.17)** — core de Game Boy Color, um tour guiado pelos recursos no primeiro boot, mais seis tipos de cartucho vindos da comunidade (Seta ST011/ST018, bootlegs com proteção contra cópia, Super 20 in 1, Gamars Puzzle, `.sfrom`), o menu em holandês e ícones por tipo de arquivo no navegador.
+
 **Funcionalidades:**
-- 🌎 Menu em 7 idiomas — Português do Brasil, Inglês, Espanhol, Alemão, Francês, Italiano e Russo, até a descrição de cada opção de configuração (e o formato de data acompanha o idioma)
+- 🌎 Menu em 8 idiomas — Português do Brasil, Inglês, Espanhol, Alemão, Francês, Italiano, Russo e Holandês, até a descrição de cada opção de configuração (e o formato de data acompanha o idioma)
 - 🖼️ Capa (box-art) dos jogos no navegador de arquivos + tela de informações antes de jogar (capa, clipe animado com som ou imagem estática, e os metadados do jogo)
 - 💾 Savestates em jogos com chip especial, que nunca tiveram — DSP1/1b/2/3/4, Super FX, OBC1, S-DD1 e CX4, mais SA-1 no FXPak Pro (Mk.III)
-- 🎮 Menu in-game com abas (L+R+Y+←) — cheats ligados na hora, slots de savestate, situação do save de bateria e os manuais do jogo, com o jogo congelado onde estava
+- 🧭 Tour guiado no primeiro boot — um card por recurso, com a imagem do que ele muda e a opção ali mesmo; cada atualização traz de volta só o que é novo
+- 🎮 Menu in-game com abas (L+R+Y+←) — cheats ligados na hora, slots de savestate, situação do save de bateria e os manuais do jogo, com o jogo congelado onde estava; o SELECT lista todos os atalhos, que também podem funcionar pelo controle 2
 - 📖 Ler manual, mapa ou detonado do jogo na TV (`.man`, até 8 por jogo) — ele lembra a página onde você parou
 - 🩹 Patches IPS/BPS aplicados na inicialização (traduções, hacks, correções) — ROM original intacta, ou gerando uma cópia já patcheada ao lado dela
 - 🎵 Música de fundo no menu (`.spc`) e 4 efeitos sonoros de navegação, montados no navegador com o Criador de Sons
 - 🎨 Temas do menu trocados no próprio console (logo, cores, fundo) com editor web e galeria pronta — o tema sd2snes+ vem de fábrica desde a 2.15
-- 🕹️ Cores de Master System, NES e Atari 2600 (experimental, só Mk.III) — jogue um `.sms`, `.nes` ou `.a26` no cartão e ele aparece na lista, com som
+- 🕹️ Cores de Game Boy Color, Master System, NES e Atari 2600 (experimental, só Mk.III) — jogue um `.gbc`, `.sms`, `.nes` ou `.a26` no cartão e ele aparece na lista, com som
 - 🔎 Trainer de RAM — descubra seus próprios cheats no console: busque um valor na memória, filtre até sobrar um endereço e congele ou salve como cheat de verdade
 - 🧩 Cores escritos para este fork — SPC7110 (*Far East of Eden Zero*), Super FX 3 (*DOOM* de 2025), minicartuchos Sufami Turbo e os cartuchos de torneio da Nintendo, Campus Challenge '92 e PowerFest '94
+- 🤝 Cores de cartucho da comunidade, nas duas placas — Seta ST011 e ST018 (com o coprocessador ARM escrito do zero), bootlegs com proteção contra cópia a partir do dump intacto, Super 20 in 1, Gamars Puzzle e arquivos `.sfrom` do SNES Classic, por M2M ([@sttng](https://github.com/sttng)) e [@terminator2k2](https://github.com/terminator2k2)
 - ⌨️ Cheats digitados no próprio console, com teclado na tela que só oferece os caracteres que um código Game Genie ou Pro Action Replay aceita
 - 🩺 Teste de memória no menu — percorre as linhas da PSRAM e da SRAM e aponta o chip com defeito pela serigrafia
 - ⚙️ Extras de conveniência: Memory Pack 8M do BS-X, aviso de BIOS de chip faltando, deletar arquivo/save, reset que volta pra onde você estava
@@ -116,6 +120,23 @@ Uma biblioteca TypeScript e CLI para interagir com a API do Google Family Link. 
 - ⌨️ CLI completa com alias curto `gfl`
 
 [**🔗 Ver Repositório**](https://github.com/ludufre/g-family-link) · [**📦 npm**](https://www.npmjs.com/package/g-family-link)
+
+---
+
+### **📹 Dahua P2P**
+*Acesse câmeras Dahua e Intelbras pelo relay em nuvem do Easy4ip — sem app, VPN ou redirecionamento de portas*
+
+Uma biblioteca TypeScript e CLI que abre um túnel P2P até câmeras Dahua e Intelbras (Mibo Smart) usando só o serial do dispositivo, mesmo atrás de 4G e CGNAT. Adiciona uma camada PTCP confiável sobre o protocolo obtido por engenharia reversa, para o stream sobreviver aos datagramas perdidos e fora de ordem do relay.
+
+**Funcionalidades:**
+- 🔌 Túnel para qualquer porta do dispositivo (RTSP 554, HTTP 80, 37777) como stream ou porta TCP local
+- 🧱 PTCP confiável: ACK só de bytes contíguos, buffer para fora de ordem e descarte de duplicados
+- 🎥 Cliente RTSP com autenticação Digest e H.264/H.265 despacotado em Annex B
+- 📸 Modo foto: primeiro keyframe e TEARDOWN — o túnel é reaproveitado entre as fotos
+- 📊 Contagem de bytes no fio (cabeçalhos IPv4/UDP inclusos) para links tarifados
+- 🪶 Node.js puro, sem dependências nativas
+
+[**🔗 Ver Repositório**](https://github.com/ludufre/dahua-p2p) · [**📦 npm**](https://www.npmjs.com/package/dahua-p2p)
 
 ---
 
