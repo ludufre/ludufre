@@ -2,7 +2,7 @@
 
 **Senior Systems Consultant & Open Source Developer**
 
-Sixteen years building and automating systems — financial and commercial platforms by day, and by night the kind of tool I wish existed: firmware for a Super Nintendo flashcart, Ionic/Capacitor plugins and Angular libraries that other developers install. Portfolio at [ludufre.com](https://ludufre.com).
+Sixteen years building and automating systems — financial and commercial platforms by day, and by night the kind of tool I wish existed: firmware for a Super Nintendo flashcart, ports of DOS classics to the SNES, Ionic/Capacitor plugins and Angular libraries that other developers install. Portfolio at [ludufre.com](https://ludufre.com).
 
 [🇧🇷 Versão em Português](./README-BR.md)
 
@@ -11,6 +11,17 @@ Sixteen years building and automating systems — financial and commercial platf
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake.svg" />
 </picture>
+
+## 🕹️ New: SNES Ports
+
+<p align="center"><a href="https://ludufre.com/ports/"><img src="https://ludufre.com/ports/og-image.png" alt="Dangerous Dave & Supaplex — SNES ports by ludufre" width="600"></a></p>
+
+Two DOS classics, ported to the Super Nintendo:
+
+- **🧱 Dangerous Dave (1990)** — John Romero's platformer, rebuilt straight from the original `DAVE.EXE`: the game logic translated function by function into C, VGA graphics in Mode 3 with 256 colors (sprites split into exact-palette layers) and the PC speaker emulated on the SPC700. 1 MB HiROM.
+- **🔴 Supaplex (1991)** — the OpenSupaplex C reimplementation on an **SA-1** cartridge: the 10.74 MHz coprocessor runs the whole game while the PC screen and the level live in battery-backed RAM, with hardware scrolling, an HDMA panel, battery saves and the original demos checked against the PC. Runs on a real SNES.
+
+[**🌐 Gameplay, tech notes & free ROMs**](https://ludufre.com/ports/)
 
 ## 🚀 Featured Open Source Projects
 
@@ -229,6 +240,7 @@ A cutting-edge Capacitor plugin that brings Apple's on-device AI capabilities to
 **Native & Systems:**
 - Swift (iOS), Kotlin (Android)
 - C & Verilog (firmware, FPGA cores)
+- 65816 & SPC700 assembly (SNES)
 - Go, Bash, Linux
 
 **Data & Tools:**

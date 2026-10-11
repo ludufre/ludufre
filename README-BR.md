@@ -2,7 +2,7 @@
 
 **Consultor Sênior de Sistemas & Desenvolvedor Open Source**
 
-Dezesseis anos construindo e automatizando sistemas — plataformas financeiras e comerciais de dia e, à noite, o tipo de ferramenta que eu gostaria que existisse: firmware para um flashcart de Super Nintendo, plugins de Ionic/Capacitor e bibliotecas Angular que outros desenvolvedores instalam. Portfólio em [ludufre.com](https://ludufre.com).
+Dezesseis anos construindo e automatizando sistemas — plataformas financeiras e comerciais de dia e, à noite, o tipo de ferramenta que eu gostaria que existisse: firmware para um flashcart de Super Nintendo, ports de clássicos do DOS para o SNES, plugins de Ionic/Capacitor e bibliotecas Angular que outros desenvolvedores instalam. Portfólio em [ludufre.com](https://ludufre.com).
 
 [🇺🇸 English Version](./README.md)
 
@@ -11,6 +11,17 @@ Dezesseis anos construindo e automatizando sistemas — plataformas financeiras 
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake.svg" />
 </picture>
+
+## 🕹️ Novo: Ports para SNES
+
+<p align="center"><a href="https://ludufre.com/ports/?lang=pt"><img src="https://ludufre.com/ports/og-image.png" alt="Dangerous Dave e Supaplex — ports para SNES por ludufre" width="600"></a></p>
+
+Dois clássicos do DOS, portados para o Super Nintendo:
+
+- **🧱 Dangerous Dave (1990)** — o jogo de plataforma de John Romero, reconstruído direto do `DAVE.EXE` original: a lógica traduzida função por função para C, gráficos VGA no Mode 3 com 256 cores (sprites divididos em camadas com paletas exatas) e o PC speaker emulado no SPC700. HiROM de 1 MB.
+- **🔴 Supaplex (1991)** — a reimplementação em C do OpenSupaplex num cartucho com **SA-1**: o coprocessador de 10,74 MHz roda o jogo inteiro enquanto a tela de PC e a fase ficam na RAM com bateria, com rolagem por hardware, painel por HDMA, saves com bateria e os demos originais conferidos contra o PC. Roda num SNES de verdade.
+
+[**🌐 Gameplay, detalhes técnicos e ROMs grátis**](https://ludufre.com/ports/?lang=pt)
 
 ## 🚀 Projetos Open Source em Destaque
 
@@ -229,6 +240,7 @@ Um plugin Capacitor de ponta que traz as capacidades de IA on-device da Apple pa
 **Nativo e Sistemas:**
 - Swift (iOS), Kotlin (Android)
 - C e Verilog (firmware, cores de FPGA)
+- Assembly 65816 e SPC700 (SNES)
 - Go, Bash, Linux
 
 **Dados e Ferramentas:**
