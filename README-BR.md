@@ -19,7 +19,7 @@ Dezesseis anos construindo e automatizando sistemas — plataformas financeiras 
 Dois clássicos do DOS, portados para o Super Nintendo:
 
 - **🧱 Dangerous Dave (1990)** — o jogo de plataforma de John Romero, reconstruído direto do `DAVE.EXE` original: a lógica traduzida função por função para C, gráficos VGA no Mode 3 com 256 cores (sprites divididos em camadas com paletas exatas) e o PC speaker emulado no SPC700. HiROM de 1 MB.
-- **🔴 Supaplex (1991)** — a reimplementação em C do OpenSupaplex num cartucho com **SA-1**: o coprocessador de 10,74 MHz roda o jogo inteiro enquanto a tela de PC e a fase ficam na RAM com bateria, com rolagem por hardware, painel por HDMA, saves com bateria e os demos originais conferidos contra o PC. Roda num SNES de verdade.
+- **🔴 Supaplex (1991)** — a reimplementação em C do OpenSupaplex num cartucho com **SA-1**: o coprocessador de 10,74 MHz roda o jogo inteiro enquanto a tela de PC e a fase ficam na RAM com bateria, com rolagem por hardware, painel por HDMA, saves com bateria e os demos originais conferidos contra o PC. Roda num SNES de verdade. [Código-fonte (GPLv3)](https://github.com/ludufre/supaplex-snes).
 
 [**🌐 Gameplay, detalhes técnicos e ROMs grátis**](https://ludufre.com/ports/?lang=pt)
 

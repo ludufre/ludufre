@@ -19,7 +19,7 @@ Sixteen years building and automating systems — financial and commercial platf
 Two DOS classics, ported to the Super Nintendo:
 
 - **🧱 Dangerous Dave (1990)** — John Romero's platformer, rebuilt straight from the original `DAVE.EXE`: the game logic translated function by function into C, VGA graphics in Mode 3 with 256 colors (sprites split into exact-palette layers) and the PC speaker emulated on the SPC700. 1 MB HiROM.
-- **🔴 Supaplex (1991)** — the OpenSupaplex C reimplementation on an **SA-1** cartridge: the 10.74 MHz coprocessor runs the whole game while the PC screen and the level live in battery-backed RAM, with hardware scrolling, an HDMA panel, battery saves and the original demos checked against the PC. Runs on a real SNES.
+- **🔴 Supaplex (1991)** — the OpenSupaplex C reimplementation on an **SA-1** cartridge: the 10.74 MHz coprocessor runs the whole game while the PC screen and the level live in battery-backed RAM, with hardware scrolling, an HDMA panel, battery saves and the original demos checked against the PC. Runs on a real SNES. [Source code (GPLv3)](https://github.com/ludufre/supaplex-snes).
 
 [**🌐 Gameplay, tech notes & free ROMs**](https://ludufre.com/ports/)
 
