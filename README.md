@@ -2,7 +2,7 @@
 
 **Senior Systems Consultant & Open Source Developer**
 
-Sixteen years building and automating systems — financial and commercial platforms by day, and by night the kind of tool I wish existed: firmware for a Super Nintendo flashcart, ports of DOS classics to the SNES, Ionic/Capacitor plugins and Angular libraries that other developers install. Portfolio at [ludufre.com](https://ludufre.com).
+Sixteen years building and automating systems — financial and commercial platforms by day, and by night the kind of tool I wish existed: firmware for a Super Nintendo flashcart, ports of DOS classics to the SNES, romhacks that put Super Scope games on the SNES Mouse, Ionic/Capacitor plugins and Angular libraries that other developers install. Portfolio at [ludufre.com](https://ludufre.com).
 
 [🇧🇷 Versão em Português](./README-BR.md)
 
@@ -22,6 +22,19 @@ Two DOS classics, ported to the Super Nintendo:
 - **🔴 Supaplex (1991)** — the OpenSupaplex C reimplementation on an **SA-1** cartridge: the 10.74 MHz coprocessor runs the whole game while the PC screen and the level live in battery-backed RAM, with hardware scrolling, an HDMA panel, battery saves and the original demos checked against the PC. Runs on a real SNES. [Source code (GPLv3)](https://github.com/ludufre/supaplex-snes).
 
 [**🌐 Gameplay, tech notes & free ROMs**](https://ludufre.com/ports/)
+
+## 🎯 New: SNES Romhacks
+
+<p align="center"><a href="https://ludufre.com/romhacks/"><img src="https://ludufre.com/romhacks/og-image.png?v=2" alt="Super Scope games played with the SNES Mouse — romhacks by ludufre" width="600"></a></p>
+
+The Super Scope light gun only works on CRT TVs. These BPS patches swap it for the **SNES Mouse** in six games, with an on-screen crosshair that sits exactly where the shot lands — so they play on any TV, emulator or flash cart:
+
+- **🦖 Yoshi's Safari**
+- **🤖 Battle Clash**, **Metal Combat: Falcon's Revenge**, **Super Scope 6**, **X-Zone** and **Bazooka Blitzkrieg**
+
+Under the hood: 65816 hooks that replace each game's Scope reading, a crosshair sprite that takes its colors from the scene's own palettes and claims a free tile in VRAM, and the Scope's turbo emulated the way each game expects. Patches only — no ROMs.
+
+[**🌐 Patches, controls & downloads**](https://ludufre.com/romhacks/)
 
 ## 🚀 Featured Open Source Projects
 

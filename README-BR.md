@@ -2,7 +2,7 @@
 
 **Consultor Sênior de Sistemas & Desenvolvedor Open Source**
 
-Dezesseis anos construindo e automatizando sistemas — plataformas financeiras e comerciais de dia e, à noite, o tipo de ferramenta que eu gostaria que existisse: firmware para um flashcart de Super Nintendo, ports de clássicos do DOS para o SNES, plugins de Ionic/Capacitor e bibliotecas Angular que outros desenvolvedores instalam. Portfólio em [ludufre.com](https://ludufre.com).
+Dezesseis anos construindo e automatizando sistemas — plataformas financeiras e comerciais de dia e, à noite, o tipo de ferramenta que eu gostaria que existisse: firmware para um flashcart de Super Nintendo, ports de clássicos do DOS para o SNES, romhacks que levam jogos da Super Scope para o SNES Mouse, plugins de Ionic/Capacitor e bibliotecas Angular que outros desenvolvedores instalam. Portfólio em [ludufre.com](https://ludufre.com).
 
 [🇺🇸 English Version](./README.md)
 
@@ -22,6 +22,19 @@ Dois clássicos do DOS, portados para o Super Nintendo:
 - **🔴 Supaplex (1991)** — a reimplementação em C do OpenSupaplex num cartucho com **SA-1**: o coprocessador de 10,74 MHz roda o jogo inteiro enquanto a tela de PC e a fase ficam na RAM com bateria, com rolagem por hardware, painel por HDMA, saves com bateria e os demos originais conferidos contra o PC. Roda num SNES de verdade. [Código-fonte (GPLv3)](https://github.com/ludufre/supaplex-snes).
 
 [**🌐 Gameplay, detalhes técnicos e ROMs grátis**](https://ludufre.com/ports/?lang=pt)
+
+## 🎯 Novo: Romhacks de SNES
+
+<p align="center"><a href="https://ludufre.com/romhacks/?lang=pt"><img src="https://ludufre.com/romhacks/og-image.png?v=2" alt="Jogos da Super Scope jogados com o SNES Mouse — romhacks por ludufre" width="600"></a></p>
+
+A pistola de luz Super Scope só funciona em TV de tubo. Estes patches BPS trocam a Scope pelo **SNES Mouse** em seis jogos, com uma mira na tela que fica exatamente onde o tiro cai — então eles rodam em qualquer TV, emulador ou flash cart:
+
+- **🦖 Yoshi's Safari**
+- **🤖 Battle Clash**, **Metal Combat: Falcon's Revenge**, **Super Scope 6**, **X-Zone** e **Bazooka Blitzkrieg**
+
+Por dentro: ganchos em 65816 que substituem a leitura da Scope de cada jogo, uma mira em sprite que pega as cores das paletas da própria cena e ocupa um tile livre da VRAM, e o turbo da Scope emulado do jeito que cada jogo espera. Só os patches — nenhuma ROM.
+
+[**🌐 Patches, controles e downloads**](https://ludufre.com/romhacks/?lang=pt)
 
 ## 🚀 Projetos Open Source em Destaque
 
