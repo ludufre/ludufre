@@ -419,6 +419,7 @@ Se algum dos meus plugins te ajudou a construir algo incrível, considere:
 Se você curte meus projetos open source e quer apoiar meu trabalho, também pode fazer uma contribuição voluntária:
 
 - 🇧🇷 Pix: `10295497-b500-44e6-9b8c-4e4fae7c30b4`
+- 🇧🇷 [Me Paga um Café](https://mepagaumcafezinho.com.br/cafe/ludufre)
 
 Obrigado por apoiar o desenvolvimento open source independente!
 
@@ -426,7 +427,7 @@ Obrigado por apoiar o desenvolvimento open source independente!
 
 <br>
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ludufre)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ludufre) [![Me Paga um Café](https://mepagaumcafezinho.com.br/api/badge/ludufre?color=purple)](https://mepagaumcafezinho.com.br/cafe/ludufre)
 
 <div> 
  <img src="https://komarev.com/ghpvc/?username=ludufre&color=green" alt="visitas" /> 
