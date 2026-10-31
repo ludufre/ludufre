@@ -2,7 +2,7 @@
 
 **Consultor Sênior de Sistemas & Desenvolvedor Open Source**
 
-Dezesseis anos construindo e automatizando sistemas — plataformas financeiras e comerciais de dia e, à noite, o tipo de ferramenta que eu gostaria que existisse: firmware para um flashcart de Super Nintendo, ports de clássicos do DOS para o SNES, romhacks que levam jogos da Super Scope para o SNES Mouse, plugins de Ionic/Capacitor e bibliotecas Angular que outros desenvolvedores instalam. Portfólio em [ludufre.com](https://ludufre.com).
+Dezesseis anos construindo e automatizando sistemas — plataformas financeiras e comerciais de dia e, à noite, o tipo de ferramenta que eu gostaria que existisse: firmware para um flashcart de Super Nintendo, ports de clássicos do DOS para o SNES, um jogo original de SNES, romhacks que levam jogos da Super Scope para o SNES Mouse, plugins de Ionic/Capacitor e bibliotecas Angular que outros desenvolvedores instalam. Portfólio em [ludufre.com](https://ludufre.com).
 
 [🇺🇸 English Version](./README.md)
 
@@ -11,6 +11,20 @@ Dezesseis anos construindo e automatizando sistemas — plataformas financeiras 
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake.svg" />
 </picture>
+
+## 🏹 Novo: QUIVER, meu próprio jogo de SNES
+
+<p align="center"><a href="https://ludufre.com/quiver/?lang=pt"><img src="https://ludufre.com/quiver/og-image.png?v=1" alt="O logo do QUIVER em dourado, os quatro arqueiros e a arena Monastery Bell" width="600"></a></p>
+
+Uma batalha de arqueiros original para o Super Nintendo. Três flechas para cada um, um golpe derruba, a tela dá a volta e vence a rodada o último arqueiro de pé:
+
+- **🎮 1 a 5 jogadores** no mesmo console, com suporte ao Super Multitap e arqueiros da CPU em três níveis
+- **⚔️ Três modos**: BATTLE, EXTRA com vidas e CHALLENGE, cooperativo frente a ondas de monstros
+- **🏰 Oito arenas**, três delas feitas para o pulo na parede, além de power-ups e monstros
+
+Por dentro: código, arte, música, efeitos sonoros e textos feitos para este projeto, com a arte desenhada por código e a música escrita em MML para o Terrific Audio Driver. A ROM é grátis.
+
+[**🌐 Como jogar, vídeos e ROM grátis**](https://ludufre.com/quiver/?lang=pt)
 
 ## 🕹️ Novo: Ports para SNES
 

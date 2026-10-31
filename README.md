@@ -2,7 +2,7 @@
 
 **Senior Systems Consultant & Open Source Developer**
 
-Sixteen years building and automating systems — financial and commercial platforms by day, and by night the kind of tool I wish existed: firmware for a Super Nintendo flashcart, ports of DOS classics to the SNES, romhacks that put Super Scope games on the SNES Mouse, Ionic/Capacitor plugins and Angular libraries that other developers install. Portfolio at [ludufre.com](https://ludufre.com).
+Sixteen years building and automating systems — financial and commercial platforms by day, and by night the kind of tool I wish existed: firmware for a Super Nintendo flashcart, ports of DOS classics to the SNES, an original SNES game, romhacks that put Super Scope games on the SNES Mouse, Ionic/Capacitor plugins and Angular libraries that other developers install. Portfolio at [ludufre.com](https://ludufre.com).
 
 [🇧🇷 Versão em Português](./README-BR.md)
 
@@ -11,6 +11,20 @@ Sixteen years building and automating systems — financial and commercial platf
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/ludufre/ludufre/output/github-contribution-grid-snake.svg" />
 </picture>
+
+## 🏹 New: QUIVER, my own SNES game
+
+<p align="center"><a href="https://ludufre.com/quiver/"><img src="https://ludufre.com/quiver/og-image.png?v=1" alt="The QUIVER logo in gold, the four archers and the Monastery Bell arena" width="600"></a></p>
+
+An original archer battle for the Super Nintendo. Three arrows each, one hit takes you out, the screen wraps around, and the last archer standing wins the round:
+
+- **🎮 1 to 5 players** on one console, with Super Multitap support and CPU archers in three levels
+- **⚔️ Three modes**: BATTLE, EXTRA with lives and CHALLENGE, co-op against monster waves
+- **🏰 Eight arenas**, three of them built for wall jumps, plus power-ups and monsters
+
+Under the hood: code, art, music, sound effects and text all made for this project, with the art drawn by code and the music written in MML for the Terrific Audio Driver. The ROM is free.
+
+[**🌐 How to play, videos & free ROM**](https://ludufre.com/quiver/)
 
 ## 🕹️ New: SNES Ports
 
