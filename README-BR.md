@@ -2,7 +2,7 @@
 
 **Consultor Sênior de Sistemas & Desenvolvedor Open Source**
 
-Dezesseis anos construindo e automatizando sistemas — plataformas financeiras e comerciais de dia e, à noite, o tipo de ferramenta que eu gostaria que existisse: firmware para um flashcart de Super Nintendo, ports de clássicos do DOS para o SNES, um jogo original de SNES, romhacks que levam jogos da Super Scope para o SNES Mouse, plugins de Ionic/Capacitor e bibliotecas Angular que outros desenvolvedores instalam. Portfólio em [ludufre.com](https://ludufre.com).
+Dezesseis anos construindo e automatizando sistemas — plataformas financeiras e comerciais de dia e, à noite, o tipo de ferramenta que eu gostaria que existisse: firmware para um flashcart de Super Nintendo, ports de clássicos do DOS para o SNES, um jogo original de SNES, romhacks que levam jogos da Super Scope para o SNES Mouse, uma tradução da BIOS BS-X do Satellaview para oito idiomas, plugins de Ionic/Capacitor e bibliotecas Angular que outros desenvolvedores instalam. Portfólio em [ludufre.com](https://ludufre.com).
 
 [🇺🇸 English Version](./README.md)
 
@@ -37,9 +37,9 @@ Dois clássicos do DOS, portados para o Super Nintendo:
 
 [**🌐 Gameplay, detalhes técnicos e ROMs grátis**](https://ludufre.com/ports/?lang=pt)
 
-## 🎯 Novo: Romhacks de SNES
+## 🎯 Novo: Romhacks e traduções de SNES
 
-<p align="center"><a href="https://ludufre.com/romhacks/?lang=pt"><img src="https://ludufre.com/romhacks/og-image.png?v=2" alt="Jogos da Super Scope jogados com o SNES Mouse — romhacks por ludufre" width="600"></a></p>
+<p align="center"><a href="https://ludufre.com/romhacks/?lang=pt"><img src="https://ludufre.com/romhacks/og-image.png?v=6" alt="Jogos da Super Scope jogados com o SNES Mouse e a BIOS BS-X traduzida — romhacks por ludufre" width="600"></a></p>
 
 A pistola de luz Super Scope só funciona em TV de tubo. Estes patches BPS trocam a Scope pelo **SNES Mouse** em seis jogos, com uma mira na tela que fica exatamente onde o tiro cai — então eles rodam em qualquer TV, emulador ou flash cart:
 
@@ -47,6 +47,8 @@ A pistola de luz Super Scope só funciona em TV de tubo. Estes patches BPS troca
 - **🤖 Battle Clash**, **Metal Combat: Falcon's Revenge**, **Super Scope 6**, **X-Zone** e **Bazooka Blitzkrieg**
 
 Por dentro: ganchos em 65816 que substituem a leitura da Scope de cada jogo, uma mira em sprite que pega as cores das paletas da própria cena e ocupa um tile livre da VRAM, e o turbo da Scope emulado do jeito que cada jogo espera. Só os patches — nenhuma ROM.
+
+**🛰️ BS-X (Satellaview) em oito idiomas:** a BIOS do Satellaview, de 1995 — *BS-X: A Cidade que Teve seu Nome Roubado*, que só saiu em japonês — agora em português (Brasil), espanhol, alemão, francês, italiano, holandês, russo e chinês simplificado, a partir da tradução em inglês do LuigiBlood. Ferramentas de texto com realocação de ponteiros, um recompressor LZ para as telas de título, da St.GIGA e de recepção redesenhadas e a fonte de 12 px do jogo ampliada com acentos, um cirílico de meia largura desenhado à mão e os ideogramas chineses que faltam no Shift-JIS.
 
 [**🌐 Patches, controles e downloads**](https://ludufre.com/romhacks/?lang=pt)
 

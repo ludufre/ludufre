@@ -2,7 +2,7 @@
 
 **Senior Systems Consultant & Open Source Developer**
 
-Sixteen years building and automating systems — financial and commercial platforms by day, and by night the kind of tool I wish existed: firmware for a Super Nintendo flashcart, ports of DOS classics to the SNES, an original SNES game, romhacks that put Super Scope games on the SNES Mouse, Ionic/Capacitor plugins and Angular libraries that other developers install. Portfolio at [ludufre.com](https://ludufre.com).
+Sixteen years building and automating systems — financial and commercial platforms by day, and by night the kind of tool I wish existed: firmware for a Super Nintendo flashcart, ports of DOS classics to the SNES, an original SNES game, romhacks that put Super Scope games on the SNES Mouse, a translation of the Satellaview BS-X BIOS into eight languages, Ionic/Capacitor plugins and Angular libraries that other developers install. Portfolio at [ludufre.com](https://ludufre.com).
 
 [🇧🇷 Versão em Português](./README-BR.md)
 
@@ -37,9 +37,9 @@ Two DOS classics, ported to the Super Nintendo:
 
 [**🌐 Gameplay, tech notes & free ROMs**](https://ludufre.com/ports/)
 
-## 🎯 New: SNES Romhacks
+## 🎯 New: SNES Romhacks & Translations
 
-<p align="center"><a href="https://ludufre.com/romhacks/"><img src="https://ludufre.com/romhacks/og-image.png?v=2" alt="Super Scope games played with the SNES Mouse — romhacks by ludufre" width="600"></a></p>
+<p align="center"><a href="https://ludufre.com/romhacks/"><img src="https://ludufre.com/romhacks/og-image.png?v=6" alt="Super Scope games played with the SNES Mouse and the BS-X BIOS translated — romhacks by ludufre" width="600"></a></p>
 
 The Super Scope light gun only works on CRT TVs. These BPS patches swap it for the **SNES Mouse** in six games, with an on-screen crosshair that sits exactly where the shot lands — so they play on any TV, emulator or flash cart:
 
@@ -47,6 +47,8 @@ The Super Scope light gun only works on CRT TVs. These BPS patches swap it for t
 - **🤖 Battle Clash**, **Metal Combat: Falcon's Revenge**, **Super Scope 6**, **X-Zone** and **Bazooka Blitzkrieg**
 
 Under the hood: 65816 hooks that replace each game's Scope reading, a crosshair sprite that takes its colors from the scene's own palettes and claims a free tile in VRAM, and the Scope's turbo emulated the way each game expects. Patches only — no ROMs.
+
+**🛰️ BS-X (Satellaview) in eight languages:** the 1995 Satellaview BIOS — *BS-X: The Town Whose Name Was Stolen*, Japanese-only — now in Portuguese (Brazil), Spanish, German, French, Italian, Dutch, Russian and Simplified Chinese, built on LuigiBlood's English translation. Text tooling with pointer relocation, an LZ recompressor for the redrawn title, St.GIGA and reception screens, and the game's 12-px font extended with accents, a hand-drawn half-width Cyrillic set and the Chinese characters missing from Shift-JIS.
 
 [**🌐 Patches, controls & downloads**](https://ludufre.com/romhacks/)
 
